@@ -1,0 +1,36 @@
+  
+:root {
+    --main-back: hsl(233, 47%, 7%);  
+    --card-back: hsl(244, 38%, 16%);
+    --accent: hslhsl(277, 64%, 61%);
+    --white-headline: hsl(0, 0%, 100%);
+    --white-para: hsla(0, 0%, 100%, 0.75);
+    --white-stat: hsla(0, 0%, 100%, 0.6);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  }
+  
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  /* @media screen and (max-width: 768px) {
+
+  } */
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 375px) {
+  
+  }
