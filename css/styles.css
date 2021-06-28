@@ -55,9 +55,35 @@ p.stats {
     letter-spacing: .1em;
 }
 
+section.card {
+    width: 1080px;
+    display: flex;
+}
+
 div.card-left {
     width: 540px;
+}
+
+div.card-right {
+    width: 540px;
     height: 446px;
+}
+
+div.card-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card
+
+div.stat-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+div.stat-item {
+    flex-grow: 1;
 }
 
 .wrap {
@@ -73,7 +99,7 @@ div.card-left {
     left:0;
     height: 100%;
     width: 100%;
-    background: hsla(277, 85%, 51%, .40);
+    background: hsla(277, 85%, 51%, .45);
     /* background: rgba(170, 92, 219, .50); */
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
