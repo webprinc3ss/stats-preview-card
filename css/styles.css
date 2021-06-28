@@ -14,10 +14,23 @@
     box-sizing: border-box;
   }
   
-  
   body {
-    color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    background-color:  var(--main-back);
+    color: var(--white-para);
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    /* font-weight: 400, 700; */
+  }
+
+  main {
+      background-color: var(--card-back);
+  }
+
+  h1 {
+      font-size: ;
+      font-family: Inter, sans-serif;
+      font-weight: 700;
+      color: var(--white-headline);
   }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
