@@ -22,8 +22,17 @@
     /* font-weight: 400, 700; */
   }
 
+  main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+  }
+
   section {
       background-color: var(--card-back);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
   }
 
   h1 {
@@ -118,6 +127,7 @@ img {
 div.attribution {
     color: var(--white-headline);
     margin-top: 20px;
+    text-align: center;
 }
 
 a {  

@@ -1,10 +1,10 @@
-# Frontend Mentor - Stats preview card component
+# Stats preview card component design match
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
-This is a coding challenge to match design mock-up as close to pixel-perfect as possible using HTML and CSS.
+This is a coding challenge issued by Frontend Mentor to match design mock-up as close to pixel-perfect as possible using HTML and CSS.
 
 There are two views: desktop and mobile.
 
