@@ -34,8 +34,9 @@
     margin-bottom: 30px;
   }
 
-p {
+p.intro {
     line-height: 1.6em;
+    margin-bottom: 73px;
 }
 
 .insights {
@@ -44,7 +45,44 @@ p {
 }
 
 h2 {
-    
+    color: var(--white-headline);
+    margin-bottom: 8px;
+}
+
+p.stats {
+    font-size: 12px;
+    font-family: Lexend Deca, sans-serif;
+    letter-spacing: .1em;
+}
+
+div.card-left {
+    width: 540px;
+    height: 446px;
+}
+
+.wrap {
+    position:relative;
+    width: 540px;
+    height: 446px;
+}
+
+.wrap:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: hsla(277, 85%, 51%, .40);
+    /* background: rgba(170, 92, 219, .50); */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 999;
+}
+
+img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
