@@ -22,6 +22,8 @@
   }
 
   main {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -70,19 +72,21 @@ p.stats {
 }
 
 section.card {
-    width: 1080px;
+    max-width: 1080px;
     display: flex;
 }
 
 div.card-left {
-    width: 450px;
+    max-width: 450px;
     padding-right: 30px;
     padding-left:30px;
+    flex:50%;
 }
 
 div.card-right {
-    width: 540px;
-    height: 446px;
+    max-width: 540px;
+    max-height: 446px;
+    flex: 50%
 }
 
 div.card-center {
